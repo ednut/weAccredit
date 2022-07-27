@@ -204,7 +204,7 @@
 		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	--font-euclid: 'Euclid Square';
 	--font-TT: 'TT Norms';
-    --bg-color: #F5F5F5;
+    --bg-color: #FBF8ED;
 	--pure-white: #ffffff;
 	--text-color: #38474B;
     --text-light: #FBF8ED;
@@ -216,4 +216,9 @@ body {
 	font-family: var(--font-euclid);
 	letter-spacing: 0.5px;
     min-height: 100vh;
+}
+
+.font-tt{
+	font-family: var(--font-TT);
+	font-weight: 500;
 }

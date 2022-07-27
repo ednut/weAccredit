@@ -1,1 +1,5 @@
-<div class="container">hello</div>
+<script>
+	import Header from '../lib/components/header.svelte';
+</script>
+
+<Header />
