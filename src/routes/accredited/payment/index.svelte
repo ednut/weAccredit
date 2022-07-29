@@ -1,4 +1,4 @@
-<div class="mt-44">
+<div class="mt-20 md:mt-44">
 	<div class="w-5/6 mb-16 md:mb-14">
 		<div class="font-tt text-4xl mb-5">Payment</div>
 	</div>

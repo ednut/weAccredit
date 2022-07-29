@@ -1,6 +1,6 @@
 <div class="banner-height relative">
 	<div class="flex justify-between">
-		<div class="w-3/5 pr-16">
+		<div class="w-full md:w-3/5 md:pr-16">
 			<div class="font-tt font-semibold text-3xl md:text-4xl pt-28 md:pt-48">
 				WeAccredit is the new way to offer management system certifications
 			</div>
@@ -9,9 +9,9 @@
 				don’t need to. You can officially issue accredited management system certifications with
 				your brand, powered by WeAccredit
 			</div>
-			<a href="/" class="gen-btn mb-28 mt-8">Get started</a>
+			<a href="/accredited" class="gen-btn mb-28 mt-8">Get started</a>
 		</div>
-		<div class="w-2/5">
+		<div class="w-2/5 hidden md:block">
 			<img class="md:pt-28" src="/assets/images/svg/weaccredit.svg" alt="" />
 		</div>
 	</div>
@@ -28,9 +28,6 @@
 				<img class="w-32 mb-6 md:w-auto" src="/assets/images/svg/logo-goverment.svg" alt="" />
 			</li>
 			<li class="inline-block mr-8 md:mr-0">
-				<img class="w-32 mb-6 md:w-auto" src="/assets/images/svg/logo-seagate.svg" alt="" />
-			</li>
-			<li class="inline-block">
 				<img class="w-32 mb-6 md:w-auto" src="/assets/images/svg/logo-seagate.svg" alt="" />
 			</li>
 			<li class="inline-block">

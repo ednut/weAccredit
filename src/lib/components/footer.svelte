@@ -1,6 +1,6 @@
 <footer class="relative">
-	<div class="flex justify-between py-40 container mx-auto flex-wrap">
-		<div class="w-1/2 md:w-1/4 mb-16 md:mb-0 pr-12">
+	<div class="flex justify-between py-40 px-4 md:px-0 container mx-auto flex-wrap">
+		<div class="w-1/2 md:w-1/4 mb-16 md:mb-0 pr-4 md:pr-12">
 			<div class="mb-6">
 				<img src="/assets/images/svg/icon-support.svg" alt="" />
 			</div>
@@ -10,7 +10,7 @@
 			</div>
 		</div>
 
-		<div class="w-1/2 md:w-1/4 mb-16 md:mb-0 pr-12">
+		<div class="w-1/2 md:w-1/4 mb-16 md:mb-0 pr-4 md:pr-12">
 			<div class="mb-6">
 				<img src="/assets/images/svg/icon-payment.svg" alt="" />
 			</div>
@@ -19,7 +19,7 @@
 			</div>
 		</div>
 
-		<div class="w-1/2 md:w-1/4 mb-16 md:mb-0 pr-12">
+		<div class="w-1/2 md:w-1/4 mb-16 md:mb-0 pr-4 md:pr-12">
 			<div class="mb-6">
 				<img src="/assets/images/svg/icon-security.svg" alt="" />
 			</div>

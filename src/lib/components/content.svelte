@@ -6,11 +6,11 @@
 		bodies across the globe
 	</div>
 	<div class="w-full md:w-6/12 md:pl-20 mb-8">
-		<ul class="m-0 p-0 flex justify-between mb-16">
-			<li class="inline-block text-sm">Europe</li>
-			<li class="inline-block text-sm text-dark">Asia</li>
-			<li class="inline-block text-sm text-dark">America</li>
-			<li class="inline-block text-sm text-dark">Africa</li>
+		<ul class="m-0 p-0 flex justify-center md:justify-between mb-16 flex-wrap">
+			<li class="inline-block text-sm mr-4 md:mr-4">Europe</li>
+			<li class="inline-block text-sm text-dark mb-2 mr-4 md:mr-4 md:mb-0">Asia</li>
+			<li class="inline-block text-sm text-dark mb-2 md:mb-0 mr-4 md:mr-4">America</li>
+			<li class="inline-block text-sm text-dark mb-2 md:mb-0 mr-4 md:mr-4">Africa</li>
 			<li class="inline-block text-sm text-dark">Australia</li>
 		</ul>
 
