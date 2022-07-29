@@ -51,7 +51,7 @@
 					<div class="mt-9 text-right">
 						<div class="text-xl font-bold mb-2">Total</div>
 						<div class="font-semibold text-xl mb-2">£100 per month</div>
-						<a href="/accredited/schedule" class="gen-btn mb-28 mt-4"
+						<a href="/accredited/schedule" class="gen-btn mb-28 mt-4 w-full md:w-auto"
 							>Book your first training session</a
 						>
 					</div>
