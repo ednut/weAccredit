@@ -1,5 +1,7 @@
 <script>
-	import Header from '../lib/components/header.svelte';
+	import Content from '../lib/components/content.svelte';
+	import Banner from '../lib/components/banner.svelte';
 </script>
 
-<Header />
+<Banner />
+<Content />

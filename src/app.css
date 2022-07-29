@@ -208,6 +208,11 @@
 	--pure-white: #ffffff;
 	--text-color: #38474B;
     --text-light: #FBF8ED;
+	--text-dark: #9a9f9c;
+}
+
+html{
+	background-color: var(--bg-color)!important;
 }
 
 body {
@@ -215,10 +220,96 @@ body {
 	color: var(--text-color);
 	font-family: var(--font-euclid);
 	letter-spacing: 0.5px;
-    min-height: 100vh;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
 }
 
 .font-tt{
 	font-family: var(--font-TT);
-	font-weight: 500;
+}
+
+@media (min-width: 768px) { 
+	.banner-height{
+		height: 90vh;
+	}
+ }
+
+
+
+.trapezoid{
+	clip-path: polygon(3% 0, 97% 2%, 100% 97%, 0% 100%);
+	background-color: var(--text-color);
+	color: var(--text-light);
+}
+.trapezoid--2{
+	clip-path: polygon(3% 4%, 100% 0, 98% 94%, 0% 100%);
+	background-color: var(--text-color);
+	color: var(--text-light);
+}
+
+.text-dark{
+	color: var(--text-dark);
+}
+
+.gen-btn{
+	border: 2px solid var(--text-color);
+	border-radius: 6rem;
+	padding: 10px 25px;
+	display: inline-block;
+}
+
+.line{
+	border: 1px solid var(--text-color);
+	width: 50px;
+}
+
+.select-input{
+	border: 2px solid var(--text-color);
+	background-color: transparent;
+	width: 100%;
+    border-radius: 40px;
+	display: flex;
+	position: relative;
+}
+
+.select-input select{
+	border: none;
+	background-color: transparent;
+	width: 100%;
+	outline: none;
+	padding: 12px 25px;
+}
+
+.select-input img{
+	width: 20px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+
+select {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+  }
+
+  select::-ms-expand {
+    display: none;
+}
+
+@media (min-width: 768px) { 
+	select{
+		width: 19rem;
+	}
+ }
+
+footer{
+	background-color: var(--text-color);
+	color: var(--text-light);
+}
+
+.text-color-bc{
+	border-color: var(--text-color);
 }
